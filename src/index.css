@@ -287,3 +287,210 @@ body{
   animation-timeline: view();
   animation-range: entry 0 cover 25%;
 }
+
+
+/*For Phones*/
+
+@media (min-width:300px) and (max-width : 600px){
+    .Page{
+    width: 100vh;
+    height: 100vh;
+    color: #ffff;
+  }
+  .ContainerPresentation{
+    flex-direction: column;
+    gap: 2rem;
+    
+  }
+  .SectionInfo{
+    width: 10em;
+    font-size: 30px;
+    text-align: left;
+  }
+  .MyPhoto{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 25px;
+  }
+  .ContainerDescription{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+  text-align: left;
+}
+
+.PartDescription {
+  width: 20rem;
+}
+
+.PartDescription h1{
+  margin-bottom: 30px;
+}
+
+.PartDescription p{
+  line-height : 1.5; 
+}
+
+.knowledge{
+  margin-top: 80px;
+}
+.IconsIknow{
+  margin-top: 10px;
+  width: 90%;
+  height: 200px;
+  overflow-x: auto;
+  display: flex;
+  gap: 6em;
+}
+
+.IconsIknow::-webkit-scrollbar{
+  display: none;
+}
+
+.ContainerIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5em;
+  animation: spin 5s infinite linear;
+  padding-right: 1em;
+}
+
+.IconsBox{
+  flex: 0 0 3em; 
+  background-color: #ffffff;
+  height: 3em;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.56) 8px 9px 10px 10px;
+  color: #7700ff;
+
+
+}
+
+.IconsBox img{
+  object-fit:fill;
+  height: 100%;
+  width: 100%;
+}
+
+/*ICONS SECTION*/
+
+/*Proyects seccion*/
+
+.ContainerProyects{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.AllProyects{
+  width: 20rem;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+
+.TitlePageProyects h1, .TitlePageProyects p{
+  margin-top: 30px;
+}
+
+.AllProyects p{
+  line-height : 1.5; 
+}
+
+.ContainerCardsProyects{
+  margin-top: 30px;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px
+}
+
+/*ImageProyect*/
+
+.CardLayout{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  width: auto;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.56) 8px 9px 10px 10px;
+}
+.ImageProyect{
+  width: 18rem;
+  height: 18rem;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #13cf32;
+}
+.ImageProyect img{
+  object-fit:fill;
+  width: 100%;
+  height: 100%;
+}
+
+/*ImageProyect*/
+
+/*DescriptionProyect*/
+
+.DescriptionProyectPart{
+  width: 18rem;
+  height: 18rem;
+  overflow: auto;
+  align-self: center;
+  scrollbar-color:white transparent;
+  
+}
+
+.DescriptionProyectPart h1, .DescriptionProyectPart p{
+  margin-top: 10px;
+}
+
+.DescriptionProyectPart h1{
+  font-size: 30px;
+}
+
+.DescriptionProyectPart p{
+  font-size: 20px;
+}
+
+.LinkTry{
+  margin: 10px;
+  background-color: #c75a54;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.LinkTry:hover{
+  background-color: #661813;
+}
+.Twitch{
+  background-color: #c022ff;
+}
+.Twitch:hover{
+  background-color: #5e0283;
+}
+/*DescriptionProyect*/
+
+/*Animation to the elemnts */
+
+.ToDo{
+  animation-range: entry 0 cover 30%;
+}
+.CToDo{
+  animation-range: entry 0 cover 15%;
+}
+ 
+}
