@@ -293,19 +293,21 @@ body{
 
 @media (min-width:300px) and (max-width : 600px){
     .Page{
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     color: #ffff;
   }
   .ContainerPresentation{
     flex-direction: column;
     gap: 2rem;
     
+    
   }
   .SectionInfo{
     width: 10em;
     font-size: 30px;
     text-align: left;
+    
   }
   .MyPhoto{
   width: 20rem;
@@ -313,6 +315,7 @@ body{
   border-radius: 50%;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 25px;
+  
   }
   .ContainerDescription{
   width: 100%;
@@ -322,10 +325,12 @@ body{
   font-size: 15px;
   align-items: center;
   text-align: left;
+  
 }
 
 .PartDescription {
   width: 20rem;
+  
 }
 
 .PartDescription h1{
@@ -340,6 +345,7 @@ body{
   margin-top: 80px;
 }
 .IconsIknow{
+  
   margin-top: 10px;
   width: 90%;
   height: 200px;
@@ -353,6 +359,7 @@ body{
 }
 
 .ContainerIcons{
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,6 +369,7 @@ body{
 }
 
 .IconsBox{
+  
   flex: 0 0 3em; 
   background-color: #ffffff;
   height: 3em;
@@ -406,6 +414,7 @@ body{
 }
 
 .ContainerCardsProyects{
+  
   margin-top: 30px;
   width: 100%;
   height: 40rem;
@@ -417,6 +426,7 @@ body{
 /*ImageProyect*/
 
 .CardLayout{
+  
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -444,6 +454,7 @@ body{
 /*DescriptionProyect*/
 
 .DescriptionProyectPart{
+  
   width: 18rem;
   height: 18rem;
   overflow: auto;
@@ -465,6 +476,7 @@ body{
 }
 
 .LinkTry{
+  
   margin: 10px;
   background-color: #c75a54;
   color: white;
